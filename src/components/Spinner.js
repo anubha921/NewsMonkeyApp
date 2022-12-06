@@ -5,7 +5,7 @@ export class spinner extends Component {
   render() {
     return (
       <div>
-        <img src={loading} alt="loading" />
+        <img className='my-3 img-responsive center-block d-block mx-auto' src={loading} alt="loading" />
       </div>
     )
   }
